@@ -11,11 +11,13 @@ use ApiPlatform\Metadata\GetCollection;
 use ApiPlatform\Metadata\Patch;
 use ApiPlatform\Metadata\Post;
 use ApiPlatform\Metadata\Put;
+use ApiPlatform\Serializer\Filter\PropertyFilter;
 use App\Repository\QuestionRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use DateTimeImmutable;
 use Symfony\Component\Serializer\Annotation\Groups;
+use function Symfony\Component\String\u;
 
 #[ORM\Entity(repositoryClass: QuestionRepository::class)]
 #[ApiResource(operations: [new Get( uriTemplate: '/question/{id}'), new GetCollection(), new Post(), new Put(), new Patch()],
@@ -23,6 +25,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
     denormalizationContext: [ 'groups' => ['question:write'] ],
     paginationItemsPerPage: 10,
 )]
+#[ApiFilter(PropertyFilter::class)]
 class Question
 {
     #[ORM\Id]
@@ -71,6 +74,12 @@ class Question
     public function getQuestion(): ?string
     {
         return $this->question;
+    }
+
+    #[Groups(['question:read'])]
+    public function getShortQuestion(): ?string
+    {
+        return u($this->question)->truncate(30, '...');
     }
 
     #[Groups('question:write')]
