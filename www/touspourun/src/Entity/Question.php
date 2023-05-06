@@ -21,7 +21,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 use function Symfony\Component\String\u;
 
 #[ORM\Entity(repositoryClass: QuestionRepository::class)]
-#[ApiResource(operations: [new Get( uriTemplate: '/question/{id}'), new GetCollection(), new Post(), new Put(), new Patch()],
+#[ApiResource(operations: [new Get( normalizationContext: ['groups' => ['question:read', 'question:item:get'], ],), new GetCollection(), new Post(), new Put(), new Patch()],
     formats: ['jsonld', 'json', 'html', 'jsonhal', 'csv' => 'text/csv'],
     normalizationContext: [ 'groups' => ['question:read'] ],
     denormalizationContext: [ 'groups' => ['question:write'] ],
@@ -36,13 +36,13 @@ class Question
     private ?int $id = null;
 
     #[ORM\Column(length: 255)]
-    #[Groups(['question:read', 'question:write'])]
+    #[Groups(['question:read', 'question:write', 'user:read'])]
     #[ApiFilter(SearchFilter::class, strategy: 'partial')]
     #[Assert\NotBlank]
     private ?string $title = null;
 
     #[ORM\Column(type: Types::TEXT)]
-    #[Groups(['question:read', 'question:write'])]
+    #[Groups(['question:read', 'question:write', 'user:read'])]
     #[Assert\NotBlank]
     private ?string $question = null;
 
