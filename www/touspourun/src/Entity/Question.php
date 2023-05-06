@@ -17,6 +17,7 @@ use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use DateTimeImmutable;
 use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Validator\Constraints as Assert;
 use function Symfony\Component\String\u;
 
 #[ORM\Entity(repositoryClass: QuestionRepository::class)]
@@ -37,10 +38,12 @@ class Question
     #[ORM\Column(length: 255)]
     #[Groups(['question:read', 'question:write'])]
     #[ApiFilter(SearchFilter::class, strategy: 'partial')]
+    #[Assert\NotBlank]
     private ?string $title = null;
 
     #[ORM\Column(type: Types::TEXT)]
     #[Groups(['question:read', 'question:write'])]
+    #[Assert\NotBlank]
     private ?string $question = null;
 
     #[ORM\Column]
@@ -49,6 +52,7 @@ class Question
 
     #[ORM\Column]
     #[ApiFilter(BooleanFilter::class)]
+    #[Assert\NotBlank]
     private ?bool $isPublished = false;
 
     public function __construct(){
@@ -108,6 +112,7 @@ class Question
         return $this->isPublished;
     }
 
+    #[Groups('question:write')]
     public function setIsPublished(bool $isPublished): self
     {
         $this->isPublished = $isPublished;
