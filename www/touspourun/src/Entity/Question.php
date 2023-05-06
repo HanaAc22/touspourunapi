@@ -21,9 +21,10 @@ use function Symfony\Component\String\u;
 
 #[ORM\Entity(repositoryClass: QuestionRepository::class)]
 #[ApiResource(operations: [new Get( uriTemplate: '/question/{id}'), new GetCollection(), new Post(), new Put(), new Patch()],
+    formats: ['jsonld', 'json', 'html', 'jsonhal', 'csv' => 'text/csv'],
     normalizationContext: [ 'groups' => ['question:read'] ],
     denormalizationContext: [ 'groups' => ['question:write'] ],
-    paginationItemsPerPage: 10,
+    paginationItemsPerPage: 10
 )]
 #[ApiFilter(PropertyFilter::class)]
 class Question
