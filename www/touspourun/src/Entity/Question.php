@@ -16,8 +16,9 @@ use Symfony\Component\Serializer\Annotation\Groups;
 
 #[ORM\Entity(repositoryClass: QuestionRepository::class)]
 #[ApiResource(operations: [new Get( uriTemplate: '/question/{id}'), new GetCollection(), new Post(), new Put(), new Patch()],
-              normalizationContext: [ 'groups' => ['question:read'] ],
-              denormalizationContext: [ 'groups' => ['question:write'] ]
+    normalizationContext: [ 'groups' => ['question:read'] ],
+    denormalizationContext: [ 'groups' => ['question:write'] ],
+    paginationItemsPerPage: 10,
 )]
 class Question
 {
