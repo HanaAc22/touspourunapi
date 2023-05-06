@@ -50,6 +50,7 @@ final class QuestionFactory extends ModelFactory
             'createdAt' => \DateTimeImmutable::createFromMutable(self::faker()->dateTime()),
             'question' => self::faker()->realText(),
             'title' => self::faker()->text(20),
+            'isPublished' => self::faker()->boolean,
         ];
     }
 

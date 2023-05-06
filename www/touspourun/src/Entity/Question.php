@@ -2,6 +2,9 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Doctrine\Orm\Filter\BooleanFilter;
+use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
+use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
 use ApiPlatform\Metadata\GetCollection;
@@ -29,6 +32,7 @@ class Question
 
     #[ORM\Column(length: 255)]
     #[Groups(['question:read', 'question:write'])]
+    #[ApiFilter(SearchFilter::class, strategy: 'partial')]
     private ?string $title = null;
 
     #[ORM\Column(type: Types::TEXT)]
@@ -38,6 +42,10 @@ class Question
     #[ORM\Column]
     #[Groups('question:read')]
     private ?\DateTimeImmutable $createdAt;
+
+    #[ORM\Column]
+    #[ApiFilter(BooleanFilter::class)]
+    private ?bool $isPublished = false;
 
     public function __construct(){
         $this->createdAt = new \DateTimeImmutable();
@@ -81,6 +89,18 @@ class Question
     public function setCreatedAt(DateTimeImmutable $createdAt): self
     {
         $this->createdAt = $createdAt;
+
+        return $this;
+    }
+
+    public function isIsPublished(): ?bool
+    {
+        return $this->isPublished;
+    }
+
+    public function setIsPublished(bool $isPublished): self
+    {
+        $this->isPublished = $isPublished;
 
         return $this;
     }
