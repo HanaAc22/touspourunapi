@@ -11,8 +11,13 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        QuestionFactory::createMany(40);
         UserFactory::createMany(10);
+        // load the user first than add a function as second argument that return a random UserFactory
+        QuestionFactory::createMany(40, function () {
+            return [
+                'owner' => UserFactory::random(),
+            ];
+        });
 
     }
 }

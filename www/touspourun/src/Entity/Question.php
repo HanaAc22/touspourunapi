@@ -55,6 +55,11 @@ class Question
     #[Assert\NotBlank]
     private ?bool $isPublished = false;
 
+    #[ORM\ManyToOne(inversedBy: 'questions')]
+    #[ORM\JoinColumn(nullable: false)]
+    #[Groups(['question:read', 'question:write'])]
+    private ?User $owner = null;
+
     public function __construct(){
         $this->createdAt = new \DateTimeImmutable();
     }
@@ -116,6 +121,18 @@ class Question
     public function setIsPublished(bool $isPublished): self
     {
         $this->isPublished = $isPublished;
+
+        return $this;
+    }
+
+    public function getOwner(): ?User
+    {
+        return $this->owner;
+    }
+
+    public function setOwner(?User $owner): self
+    {
+        $this->owner = $owner;
 
         return $this;
     }
