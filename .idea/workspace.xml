@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="" />
+    <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/touspour1api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/touspour1api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -19,19 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/aachana/Projects/touspour1api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/aachana/Projects/symfonyDemo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +60,8 @@
       <updated>1683322999659</updated>
       <workItem from="1683322999661" duration="104000" />
       <workItem from="1683323120792" duration="68000" />
-      <workItem from="1683323206336" duration="314000" />
+      <workItem from="1683323206336" duration="36804000" />
+      <workItem from="1683482021886" duration="1151000" />
     </task>
     <servers />
   </component>
