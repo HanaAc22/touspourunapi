@@ -52,7 +52,7 @@ class Question
 
     #[ORM\Column]
     #[ApiFilter(BooleanFilter::class)]
-    #[Assert\NotBlank]
+    #[Groups('user:write')]
     private ?bool $isPublished = false;
 
     #[ORM\ManyToOne(inversedBy: 'questions')]
