@@ -52,12 +52,12 @@ class Question
 
     #[ORM\Column]
     #[ApiFilter(BooleanFilter::class)]
-    #[Assert\NotBlank]
     private ?bool $isPublished = false;
 
     #[ORM\ManyToOne(inversedBy: 'questions')]
     #[ORM\JoinColumn(nullable: false)]
     #[Groups(['question:read', 'question:write'])]
+    #[Assert\Valid]
     private ?User $owner = null;
 
     public function __construct(){
