@@ -28,6 +28,7 @@ use function Symfony\Component\String\u;
     paginationItemsPerPage: 10
 )]
 #[ApiFilter(PropertyFilter::class)]
+#[ApiFilter(SearchFilter::class, properties:  ['owner.username' => 'partial'])]
 class Question
 {
     #[ORM\Id]
