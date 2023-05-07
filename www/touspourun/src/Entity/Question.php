@@ -8,9 +8,11 @@ use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
 use ApiPlatform\Metadata\GetCollection;
+use ApiPlatform\Metadata\Link;
 use ApiPlatform\Metadata\Patch;
 use ApiPlatform\Metadata\Post;
 use ApiPlatform\Metadata\Put;
+use ApiPlatform\OpenApi\Model\License;
 use ApiPlatform\Serializer\Filter\PropertyFilter;
 use App\Repository\QuestionRepository;
 use Doctrine\DBAL\Types\Types;
@@ -29,6 +31,10 @@ use function Symfony\Component\String\u;
 )]
 #[ApiFilter(PropertyFilter::class)]
 #[ApiFilter(SearchFilter::class, properties:  ['owner.username' => 'partial'])]
+#[ApiResource(uriTemplate: '/users/{user_id}/questions.{_format}', operations: [new GetCollection()],
+    uriVariables:[ 'user_id' => new Link(fromProperty: 'questions', fromClass: User::class)],
+    normalizationContext: [ 'groups' => ['question:read'] ],
+)]
 class Question
 {
     #[ORM\Id]

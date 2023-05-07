@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Metadata\Get;
+use ApiPlatform\Metadata\Link;
 use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -21,6 +23,11 @@ use Symfony\Component\Validator\Constraints as Assert;
 )]
 #[UniqueEntity(fields: ['email'], message: 'There is already an account with this email')]
 #[UniqueEntity(fields: ['username'], message: 'There is already an account with this username')]
+#[ApiResource(uriTemplate: 'question/{question_id}/owner.{_format}',
+    operations: [new Get()],
+    uriVariables: ['question_id' => new Link(fromProperty: 'owner', fromClass: Question::class)],
+    normalizationContext: ['groups' => ['user:read']],
+)]
 
 class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
