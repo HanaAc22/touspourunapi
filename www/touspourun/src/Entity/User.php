@@ -50,8 +50,9 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[Assert\NotBlank]
     private ?string $username = null;
 
-    #[ORM\OneToMany(mappedBy: 'owner', targetEntity: Question::class)]
+    #[ORM\OneToMany(mappedBy: 'owner', targetEntity: Question::class, cascade: ['persist'])]
     #[Groups(['user:read', 'user:write', 'question:item:get'])]
+    #[Assert\Valid]
     private Collection $questions;
 
     public function __construct()

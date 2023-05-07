@@ -36,13 +36,13 @@ class Question
     private ?int $id = null;
 
     #[ORM\Column(length: 255)]
-    #[Groups(['question:read', 'question:write', 'user:read'])]
+    #[Groups(['question:read', 'question:write', 'user:read', 'user:write'])]
     #[ApiFilter(SearchFilter::class, strategy: 'partial')]
     #[Assert\NotBlank]
     private ?string $title = null;
 
     #[ORM\Column(type: Types::TEXT)]
-    #[Groups(['question:read', 'question:write', 'user:read'])]
+    #[Groups(['question:read', 'question:write', 'user:read', 'user:write'])]
     #[Assert\NotBlank]
     private ?string $question = null;
 
@@ -52,6 +52,7 @@ class Question
 
     #[ORM\Column]
     #[ApiFilter(BooleanFilter::class)]
+    #[Assert\NotBlank]
     private ?bool $isPublished = false;
 
     #[ORM\ManyToOne(inversedBy: 'questions')]
@@ -74,6 +75,7 @@ class Question
         return $this->title;
     }
 
+    #[Groups(['user:write'])]
     public function setTitle(string $title): self
     {
         $this->title = $title;
@@ -92,7 +94,7 @@ class Question
         return u($this->question)->truncate(30, '...');
     }
 
-    #[Groups('question:write')]
+    #[Groups(['question:write', 'user:write'])]
     public function setQuestion(string $question): self
     {
         $this->question = $question;
