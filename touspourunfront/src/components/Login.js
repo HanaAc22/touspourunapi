@@ -38,8 +38,8 @@ export default function Login() {
         setIsLoading(false);
 
         if (!response.ok) {
-            const data = await response.json();
             setError(data.error);
+            console.log('error ❌');
             return;
         }
 
