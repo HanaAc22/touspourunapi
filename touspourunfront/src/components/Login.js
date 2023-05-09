@@ -1,66 +1,68 @@
-import { useRef } from 'react';
-import {Button, TextField} from "@mui/material";
+import React, {useState} from 'react';
 
 export default function Login() {
-    const emailRef = useRef('');
-    const passwordRef = useRef('');
-    const errorRef = useRef('');
-    const isLoadingRef = useRef(false);
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
 
     const loadEmailField = () => {
-        emailRef.current = 'bernie@dragonmail.com';
+        setEmail('test@test.fr');
     };
+
     const loadPasswordField = () => {
-        passwordRef.current = 'roar';
+        setPassword('test');
     };
 
-    const handleSubmit = async () => {
-        isLoadingRef.current = true;
-        errorRef.current = '';
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        setIsLoading(true);
+        setError('');
 
-        const response = await fetch('/login', {
+        const response = await fetch('http://localhost:48000/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                email: emailRef.current,
-                password: passwordRef.current
+                email: email,
+                password: password
             })
         });
+        const data = await response.json();
+        setEmail(data.email);
+        setPassword(data.password);
+        console.log(data);
 
-        isLoadingRef.current = false;
+        setIsLoading(false);
 
         if (!response.ok) {
             const data = await response.json();
-            errorRef.current = data.error;
-
+            setError(data.error);
             return;
         }
 
-        emailRef.current = '';
-        passwordRef.current = '';
+        setEmail('');
+        setPassword('');
         const userIri = response.headers.get('Location');
-        // Emit the 'user-authenticated' event here
-    }
+        console.log('User authenticated:', userIri);
+    };
 
-    // @ts-ignore
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label htmlFor="email">Email:</label>
-                <input type="email" id="email" value={emailRef.current}  />
-                <button type="button" onClick={loadEmailField}>Load Email</button>
-            </div>
-            <div>
-                <label htmlFor="password">Password:</label>
-                <input type="password" id="password" value={passwordRef.current} onChange={(e) => passwordRef.current = e.target.value} />
-                <button type="button" onClick={loadPasswordField}>Load Password</button>
-            </div>
-            {isLoadingRef.current && <p>Loading...</p>}
-            {errorRef.current && <p>{errorRef.current}</p>}
-            <button type="submit">Submit</button>
-        </form>
-
+        <div className="App">
+            <h3>TousPour1</h3>
+            <form className="form" onSubmit={handleSubmit}>
+                <div className="input-group">
+                    <label htmlFor="email">Email</label>
+                    <input type="email" name="email" placeholder="test@test.fr" />
+                </div>
+                <div className="input-group">
+                    <label htmlFor="password">Password</label>
+                    <input type="password" name="password" />
+                </div>
+                <button className="primary">Login</button>
+            </form>
+        </div>
     );
 }

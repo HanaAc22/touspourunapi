@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/touspourunfront/src/components/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/touspourunfront/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/touspourunfront/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/touspourunfront/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/touspourunfront/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Controller/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\home\aachana\Projects\touspourunapi\touspourunfront\src" />
+      <recent name="\\wsl$\Ubuntu\home\aachana\Projects\touspourunapi\touspourunfront\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +84,7 @@
       <workItem from="1683501760660" duration="852000" />
       <workItem from="1683502913939" duration="5428000" />
       <workItem from="1683575419029" duration="4321000" />
-      <workItem from="1683660827073" duration="662000" />
+      <workItem from="1683660827073" duration="6869000" />
     </task>
     <servers />
   </component>
