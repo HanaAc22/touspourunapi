@@ -39,7 +39,7 @@ export default function Login() {
 
         if (!response.ok) {
             setError(data.error);
-            console.log('error ❌');
+            console.log('error');
             return;
         }
 
