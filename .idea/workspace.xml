@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/components/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/touspourunfront/tsconfig.json" beforeDir="false" />
-    </list>
+    <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +75,7 @@
       <workItem from="1683660827073" duration="24531000" />
       <workItem from="1683831199135" duration="23000" />
       <workItem from="1683831239982" duration="72000" />
-      <workItem from="1683831341625" duration="425000" />
+      <workItem from="1683831341625" duration="781000" />
     </task>
     <servers />
   </component>
