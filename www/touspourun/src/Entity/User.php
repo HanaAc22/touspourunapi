@@ -5,6 +5,8 @@ namespace App\Entity;
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
 use ApiPlatform\Metadata\Link;
+use ApiPlatform\Metadata\Post;
+use App\Dto\UserLoginDto;
 use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -28,6 +30,11 @@ use Symfony\Component\Validator\Constraints as Assert;
     uriVariables: ['question_id' => new Link(fromProperty: 'owner', fromClass: Question::class)],
     normalizationContext: ['groups' => ['user:read']],
 )]
+#[ApiResource(uriTemplate: 'login',
+    operations:[
+        new Get(),
+        new Post(input: UserLoginDto::class)
+    ] )]
 
 class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
