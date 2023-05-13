@@ -5,44 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/www/touspourun/assets/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/assets/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/assets/controllers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/assets/controllers/hello_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/assets/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/assets/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/touspourun/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/touspour1api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/touspour1api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/.env.test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/controllers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/controllers/hello_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/styles/app.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/packages/api_platform.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/packages/debug.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/packages/monolog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/packages/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/zenstruck_foundry.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/packages/zenstruck_foundry.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/routes/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/routes/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/migrations/Version20230506184735.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/migrations/Version20230506184735.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/migrations/Version20230507233924.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/migrations/Version20230507233924.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/webpack_encore.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/src/Dto/UserLoginDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Dto/UserLoginDto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/src/Factory/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Factory/QuestionFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Repository/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/templates/security/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/templates/security/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -76,31 +58,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/aachana/Projects/touspourunapi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "\\\\wsl$\\Ubuntu\\home\\aachana\\Projects\\touspourunapi\\touspourunfront\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/aachana/Projects/touspourunapi&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\aachana\\Projects\\touspourunapi\\touspourunfront\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\aachana\Projects\touspourunapi\www\touspourun\assets\react\controllers" />
+      <recent name="\\wsl$\Ubuntu\home\aachana\Projects\touspourunapi\www\touspourun\assets" />
       <recent name="\\wsl$\Ubuntu\home\aachana\Projects\touspourunapi\touspourunfront\src" />
       <recent name="\\wsl$\Ubuntu\home\aachana\Projects\touspourunapi\touspourunfront\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev-server">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/www/touspourun/package.json" />
       <command value="run" />
@@ -123,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev-server" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +131,9 @@
       <workItem from="1683660827073" duration="24531000" />
       <workItem from="1683831199135" duration="23000" />
       <workItem from="1683831239982" duration="72000" />
-      <workItem from="1683831341625" duration="5505000" />
+      <workItem from="1683831341625" duration="11240000" />
+      <workItem from="1683844479644" duration="23000" />
+      <workItem from="1683980861743" duration="2471000" />
     </task>
     <servers />
   </component>
