@@ -7,23 +7,10 @@
     <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/controllers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/controllers/hello_controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/assets/styles/app.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/config/packages/webpack_encore.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/src/Controller/SecurityController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/templates/security/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/templates/security/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +120,7 @@
       <workItem from="1683831239982" duration="72000" />
       <workItem from="1683831341625" duration="11240000" />
       <workItem from="1683844479644" duration="23000" />
-      <workItem from="1683980861743" duration="2471000" />
+      <workItem from="1683980861743" duration="3914000" />
     </task>
     <servers />
   </component>
