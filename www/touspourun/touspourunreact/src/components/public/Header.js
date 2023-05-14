@@ -91,9 +91,6 @@ const Header = () => {
                     <StyledButton component={Link} to="/contact" color="inherit">
                         Contact
                     </StyledButton>
-                    <StyledButton component={Link} to="/profil" color="inherit">
-                        Profil
-                    </StyledButton>
                 </Box>
                 <Box sx={{display: {xs: 'flex', sm: 'none'}}}>
                     <MenuIconWrapper onClick={handleMenuClick}>
