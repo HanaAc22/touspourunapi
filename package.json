@@ -1,0 +1,12 @@
+{
+  "name": "touspourunapi",
+  "version": "1.0.0",
+  "description": "- php 8 - Composer 2.5.1  - Mysql 8.0 - nginx",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
