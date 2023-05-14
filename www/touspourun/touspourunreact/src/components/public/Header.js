@@ -8,7 +8,6 @@ import { styled } from '@mui/material/styles';
 import Box from "@mui/material/Box";
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import CloseIcon from '@mui/icons-material/Close';
 
 const StyledButton = styled(Button)(({ theme }) => ({
     [theme.breakpoints.down('sm')]: {
@@ -16,12 +15,12 @@ const StyledButton = styled(Button)(({ theme }) => ({
     },
 }));
 
-const ResponsiveButton = styled(Button)(({ theme }) => ({
-    display: 'none',
-    [theme.breakpoints.down('sm')]: {
-        display: 'block',
-    },
-}));
+// const ResponsiveButton = styled(Button)(({ theme }) => ({
+//     display: 'none',
+//     [theme.breakpoints.down('sm')]: {
+//         display: 'block',
+//     },
+// }));
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
     display: 'flex',
@@ -41,14 +40,17 @@ const ResponsiveMenu = styled(Box)(({ theme }) => ({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'flex-start',
-    height: '100%',
-    backgroundColor: '#f2f2f2',
-    position: 'absolute',
-    top: '0',
-    left: '0',
-    width: '100%',
-    padding: '20px',
+    '& .menu': {
+        backgroundColor: '#f2f2f2',
+        height: '100%',
+        position: 'absolute',
+        top: '0',
+        left: '0',
+        width: '100%',
+        padding: '20px',
+    },
 }));
+
 
 const MenuIconWrapper = styled(IconButton)(({ theme }) => ({
     display: 'none',
@@ -64,9 +66,9 @@ const Header = () => {
         setOpen(true);
     };
 
-    const handleCloseClick = () => {
-        setOpen(false);
-    };
+    // const handleCloseClick = () => {
+    //     setOpen(false);
+    // };
 
     return (
         <AppBar position="static">

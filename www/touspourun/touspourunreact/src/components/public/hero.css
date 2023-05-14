@@ -1,0 +1,24 @@
+.heroBox {
+    background-color: #F8F8F8;
+}
+
+.title {
+    color: #333;
+    font-size: 36px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 18px;
+}
+
+.largeImage {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .gridContainer {
+        flex-direction: column;
+    }
+}
