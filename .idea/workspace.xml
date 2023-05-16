@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821c1ec5-c52b-42d8-a8ce-d281301fe198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/public/PublicRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/components/admin/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/components/admin/SideMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/admin/ALayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/admin/AdminRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/admin/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/associations/Association.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/associations/AssociationAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/associations/AssociationEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/user/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/user/UserAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/user/UserEdit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/components/public/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/components/public/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/public/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/Contenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/public/Contenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/Forum.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/public/Forum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/public/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/components/public/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/components/public/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/touspourun/touspourunreact/src/pages/Profil.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +134,7 @@
       <workItem from="1683995058420" duration="15313000" />
       <workItem from="1684019748517" duration="1754000" />
       <workItem from="1684067204151" duration="201000" />
-      <workItem from="1684067521871" duration="22626000" />
+      <workItem from="1684067521871" duration="27899000" />
     </task>
     <servers />
   </component>
