@@ -1,0 +1,27 @@
+#admin{
+    display: flex;
+    background-color: #0c5460;
+}
+.sideMenu{
+    flex-grow: 1;
+    background-color: #00bb00;
+}
+#admin_body{
+   flex-grow: 6;
+    background-color: #1b9448;
+}
+.Aheader{
+    text-align: center;
+    background-color: #51695b;
+    line-height: 50px;
+}
+
+/****************************************************/
+
+.sideMenu ul{
+    list-style: none;
+}
+
+.sideMenu ul li a{
+    text-decoration: none;
+}
