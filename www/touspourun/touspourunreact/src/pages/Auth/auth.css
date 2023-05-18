@@ -1,0 +1,13 @@
+form{
+    width:180px;
+    margin: 150px auto 0;
+}
+.group{
+    margin-bottom:15px;
+}
+label{
+    display:block;
+}
+button{
+    width:100%
+}

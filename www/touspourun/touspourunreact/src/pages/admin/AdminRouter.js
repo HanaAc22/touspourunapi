@@ -21,6 +21,7 @@ const AdminRouter = () => {
                     <Route path="edit/:uid" element={<UserEdit/>}/>
                     <Route path="add" element={<UserAdd/>}/>
                 </Route>
+                <Route index element={<Association/>}/>
                 <Route path="association">
                     <Route path="index" element={<Association/>}/>
                     <Route path="edit" element={<AssociationEdit/>}/>
