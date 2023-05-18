@@ -5,7 +5,7 @@ import Dashboard from "./Dashboard";
 import User from "./user/User";
 import UserAdd from "./user/UserAdd";
 import UserEdit from "./user/UserEdit";
-import Error from "../../_util/Error";
+import Error from "../../_utils/Error";
 import Association from "./associations/Association";
 import AssociationEdit from "./associations/AssociationEdit";
 import AssociationAdd from "./associations/AssociationAdd";

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Login from "./Login";
-import Error from "../../_util/Error";
+import Error from "../../_utils/Error";
 import './auth.css';
 
 const AuthRouter = () => {

@@ -5,7 +5,7 @@ import Home from "./Home";
 import Content from "./Contenu";
 import Forum from "./Forum";
 import Contact from "./Contact";
-import Error from "../../_util/Error";
+import Error from "../../_utils/Error";
 
 const PublicRouter = () => {
     return (
